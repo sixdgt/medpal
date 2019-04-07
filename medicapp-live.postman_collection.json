@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "64e1a688-4543-4456-9f57-8ec044145976",
+		"name": "medicapp live",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "service/list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {},
+				"url": "http://www.suzamb.com/public/service/list"
+			},
+			"response": []
+		},
+		{
+			"name": "profession/list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://www.suzamb.com/public/profession/list"
+			},
+			"response": []
+		},
+		{
+			"name": "client/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "demo1@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "passkey",
+							"value": "em123234",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://www.suzamb.com/public/client/login"
+			},
+			"response": []
+		},
+		{
+			"name": "merchant/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "aa",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "aa",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "aaa",
+							"type": "text"
+						},
+						{
+							"key": "contact",
+							"value": "85412",
+							"type": "text"
+						},
+						{
+							"key": "profession_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "New Baneshwor",
+							"type": "text"
+						},
+						{
+							"key": "latitude",
+							"value": "84",
+							"type": "text"
+						},
+						{
+							"key": "longitude",
+							"value": "87",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "helle@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "passkey",
+							"value": "demo123",
+							"type": "text"
+						},
+						{
+							"key": "service",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "files[]",
+							"type": "file",
+							"src": ""
+						}
+					]
+				},
+				"url": "https://www.suzamb.com/public/merchant/register"
+			},
+			"response": []
+		},
+		{
+			"name": "merchant/login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "1213asdadsasdd@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "passkey",
+							"value": "pubg123",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://www.suzamb.com/public/merchant/login"
+			},
+			"response": []
+		},
+		{
+			"name": "client/register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "49be994a9a74da4d8e6f6cc70ef2bf77ef1ce0005ea3a78b261ffcd8edb0bf771546612675000",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "first_name",
+							"value": "aa",
+							"type": "text"
+						},
+						{
+							"key": "middle_name",
+							"value": "as",
+							"type": "text"
+						},
+						{
+							"key": "last_name",
+							"value": "asdasdd",
+							"type": "text"
+						},
+						{
+							"key": "contact",
+							"value": "874584512",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "ads@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "passkey",
+							"value": "em123234",
+							"type": "text"
+						},
+						{
+							"key": "height",
+							"value": "4",
+							"type": "text"
+						},
+						{
+							"key": "weight",
+							"value": "48",
+							"type": "text"
+						},
+						{
+							"key": "dob",
+							"value": "2011-10-22",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						}
+					]
+				},
+				"url": "https://www.suzamb.com/public/client/register"
+			},
+			"response": []
+		}
+	]
+}
